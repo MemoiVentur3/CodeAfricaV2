@@ -4,12 +4,12 @@ import Item1 from '../assets/item1.svg'
 import Item2 from '../assets/4911.svg'
 import Item3 from '../assets/item3.svg'
 import Item4 from '../assets/item4.svg'
-
 import bg1 from '../assets/Ellipse 1.png'
 import bg2 from '../assets/Ellipse 4.png'
 import { MediaQuerys } from '../base/mediaQuery'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import css from '../gradient.module.css'
+import ScrollingLogos from './slider'
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -21,6 +21,7 @@ import { Pagination } from 'swiper'
 import 'swiper/css'
 const Hero = () => {
   const isMobile = MediaQuerys('(max-width:768px)')
+  const textArray = Array(14).fill("REGISTER NOW ");
   return (
     <>
       {isMobile == true ? (
@@ -50,12 +51,19 @@ const Hero = () => {
               Join us for an immersive experience as we bring together a diverse community of developers, founders, product designers, VCs, KoLs and industry players in blockchain, AI and beyond.
             </p>
             <div className="flex justify-center gap-5 z-[99]">
-              <button className="px-8 py-4 bg-[#2063F2] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
+              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
-              <button className="px-8 py-4 bg-[#2063F2] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
+              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
                 Register Now
               </button>
+            </div>
+            <div className="bg-sky-400 h-11 flex items-center overflow-hidden">
+              <p className="animate-marquee whitespace-nowrap">
+                {textArray.map((text, index) => (
+                  <span key={index}>{text}</span>
+                ))}
+              </p>
             </div>
           </div>
         </div>
@@ -71,8 +79,8 @@ const Hero = () => {
                 src={Item1}
                 className="absolute  top-[27rem] left-[18rem]"
               />
-              
-              
+
+
               <img
                 src={Item3}
                 className="absolute top-[8rem] left-[8rem]"
@@ -99,13 +107,15 @@ const Hero = () => {
               Join us for an immersive experience as we bring together a diverse community of developers, founders, product designers, VCs, KoLs and industry players in blockchain, AI and beyond.
             </p>
             <div className="flex justify-center gap-5 z-[99]">
-              <button className="px-8 py-4 bg-[#2063F2] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
+              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
-              <button className="px-8 py-4 bg-[#2063F2] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
+              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                 Register Now
               </button>
             </div>
+            <ScrollingLogos />
+            
           </div>
           {/* <div className="flex justify-center items-end z-[99]">
             <img src={frame2} className="w-[auto] h-[20rem]" />
@@ -115,7 +125,7 @@ const Hero = () => {
             <img src={frame6} className="w-[auto] h-[16rem]" />
             <img src={frame7} className="w-[auto] h-[20rem]" />
           </div>
-          <div className="flex gap-[20px] text-[#000] z-[99] text-[24px] font-[700] bg-[#2063F2] w-full align-center justify-around relative bottom-[5rem] p-[1rem]">
+          <div className="flex gap-[20px] text-[#000] z-[99] text-[24px] font-[700] bg-sky-400 w-full align-center justify-around relative bottom-[5rem] p-[1rem]">
             <div>Mintyplex</div>
             <div>Mintyplex</div>
             <div>Mintyplex</div>

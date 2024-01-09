@@ -3,18 +3,18 @@ import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
 import profile3 from '../assets/profile3.jpeg'
 import profile4 from '../assets/profile4.jpeg'
 import profile1 from '../assets/profile1.jpeg'
-// import profile5 from '../assets/profile5.jpeg'
+import profile5 from '../assets/profile5.jpeg'
 import profile2 from '../assets/profile2.jpeg'
-// import profile6 from '../assets/profile6.jpeg'
+import profile6 from '../assets/profile6.jpeg'
 
 
 const navigation = [
     { name: 'Sadiq', image: (profile3), role: 'CEO, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Isaac', image: (profile4), role: 'COO, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    // { name: 'Bright', image: (profile6), role: 'CTO, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Bright', image: (profile6), role: 'CTO, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Adeyemi', image: (profile2), role: 'COMMUNITY LEAD, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Jackson', image: (profile1), role: 'PRODUCT LEAD, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    // { name: 'Gabriel', image: (profile5), role: 'BRAND LEAD, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Gabriel', image: (profile5), role: 'BRAND LEAD, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
 ]
 
 function Card() {

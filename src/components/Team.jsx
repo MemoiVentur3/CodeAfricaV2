@@ -4,6 +4,7 @@ import Card from "./cards"
 
 
 export default function Team() {
+  const textArray = Array(14).fill("REGISTER NOW ");
 
   return (
     <div className='my-[20px] px-[20px]'>
@@ -21,6 +22,13 @@ export default function Team() {
           </div>
         </div>
       </div>
+      <div className="bg-sky-400 w-screen h-[80px] mt-[25px] flex items-center ">
+              <p className="animate-marquee font-extrabold text-[40px] whitespace-nowrap">
+                {textArray.map((text, index) => (
+                  <span key={index}>{text}</span>
+                ))}
+              </p>
+            </div>
     </div>
   )
 }
