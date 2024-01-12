@@ -22,7 +22,7 @@ const Pioneer = () => {
               <h1 className="text-[28px] md:text-[48px] lg:text-[64px] font-[700] ">Let's Pioneer The Future of</h1>
               <span className="font-[700] text-[28px] md:text-[48px] lg:text-[64px] text-white"><b className="font-[700] text-[28px] md:text-[48px] lg:text-[64px] text-[#2063F2]">Developers</b> Together</span>
             </div>
-            <p className="md:w-[600px] w-[320px] md:text-[16px] text-[14px] text-center ">We believe NFTs are the missing link to empowering and onboarding millions of people into the Web3 Space. Joining us takes us a step closer to achieving this.</p>
+            <p className="md:w-[600px] w-[320px] md:text-[16px] text-[14px] text-center ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</p>
             <button className="px-8 py-4 bg-[#2063F2] rounded-[10px]">Join our community</button>
             <div className="flex justify-end items-end">
               <img src={pic4} className=''/>
@@ -44,7 +44,7 @@ const Pioneer = () => {
               <h1 className="text-[64px] font-[700] ">Let's Pioneer The Future of</h1>
               <span className="font-[700] text-[64px] text-white"><b className="text-[#2063F2]">Developers</b> Together</span>
             </div>
-            <p className="w-[600px] text-[24px] text-center ">We believe NFTs are the missing link to empowering and onboarding millions of people into the Web3 Space. Joining us takes us a step closer to achieving this.</p>
+            <p className="w-[600px] text-[24px] text-center ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</p>
             <button className="px-8 py-4 bg-[#2063F2] rounded-full">Join our community</button>
 
             <div className="static">

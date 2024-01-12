@@ -11,10 +11,10 @@ import Hero from '../components/Hero'
 import '../App.css'
 export default function Home() {
     const eventDetails = {
-        title: "Tech Conference 2024",
-        date: "April 30, 2024",
-        time: "10:00 AM - 4:00 PM",
-        venue: "Convention Center, Downtown",
+        title: "Developers Conference 2024",
+        date: "May 10th - 11th, 2024",
+        time: "9:00 AM UTC",
+        venue: "Strathmore University, Nairobi, Kenya",
         registerLink: "/register"
       };
 

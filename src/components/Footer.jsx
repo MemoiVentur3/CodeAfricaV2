@@ -28,11 +28,11 @@ const Footer = () => {
               <div className="flex flex-col gap-4 ">
                 <div className="flex gap-4">
                   <img src={BlueLetter} className='w-15'/>
-                  <text>Hello@mintyplex.com</text>
+                  <text>elisha@memoiafrica.com</text>
                 </div>
                 <div className="flex gap-4 ">
                   <img src={Phone} className='w-15'/>
-                  <text>+234 810 0000</text>
+                  <text>+234 903-263-2415</text>
                 </div>
               </div>
             </div>
@@ -64,18 +64,18 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 md:gap-10 lg:grid-cols-3 items-top lg:justify-items-center ">
             <div className="flex flex-col gap-4">
               <div className="w-[40px]"><img src={MintyplexLogo} alt="MintyplexLogo" /></div>
-              <h5 className="w-[350px] ">Mintyplex is an NFT-based Startup building solutions to help brands launch, manage and grow their NFT businesses.</h5>
+              <h5 className="w-[350px] ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</h5>
             </div>
             <div>
               <div className="text-[28px] font-[600] mt-5 pb-4  ">Say Hello</div>
               <div className="flex flex-col gap-4 ">
                 <div className="flex gap-4">
                   <img src={BlueLetter} className='w-15'/>
-                  <text>Hello@mintyplex.com</text>
+                  <text>elisha@memoiafrica.com</text>
                 </div>
                 <div className="flex gap-4 ">
                   <img src={Phone} className='w-15'/>
-                  <text>+234 810 0000</text>
+                  <text>+234 903-263-2415</text>
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
           <hr/>
           <div className="flex justify-around items-center  text-[#838998] ">
-              <text><b>Mintyplex</b> @ 2022. All right reserved.</text>
+              <text><b>Code Africa</b> @ 2024. All right reserved.</text>
             <div className="flex gap-2 items-center justify-center">
               <FaDiscord className="p-2 border rounded-full " size={40} />
               <FaTwitter className="p-2 border rounded-full " size={40}/>

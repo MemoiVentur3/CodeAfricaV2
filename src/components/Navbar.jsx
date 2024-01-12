@@ -99,7 +99,7 @@ export default function Navbar() {
               </div>
             </div> ) :
             <div >
-              <button className="px-6 py-2 bg-[#2063F2] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] w-fit text-[#fff] rounded-3xl">
+              <button className="px-6 py-2 bg-sky-400 hover:bg-[#fff] hover:text-sky-500 text-[14px] w-fit text-[#fff] rounded-3xl">
               Become a Sponsor
             </button>
             </div>
@@ -139,7 +139,7 @@ export default function Navbar() {
                 </div>
               </div> ) :
               <div  >
-                <button className="px-6 py-2 bg-[#2063F2] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] w-fit text-[#fff] rounded-3xl">
+                <button className="px-6 py-2 bg-sky-400 hover:bg-[#fff] hover:text-sky-400 text-[14px] w-fit text-[#fff] rounded-3xl">
                 Become a Sponsor
               </button>
               </div>
