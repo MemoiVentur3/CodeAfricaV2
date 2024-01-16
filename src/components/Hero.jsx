@@ -70,10 +70,10 @@ const Hero = () => {
       ) : (
         <div className="items-center pb-40 justify-center flex flex-col gap-5">
           <div className="items-center justify-center flex flex-col gap-5">
-            <div className="static">
+            {/* <div className="static">
               <img src={bg1} className='absolute w-[25rem] left-[4rem] top-[-5rem]' />
               <img src={bg2} className='absolute w-[35rem] top-[-3rem] right[-5rem]' />
-            </div>
+            </div> */}
             <div className="static z-[99]">
               <img
                 src={Item1}

@@ -24,12 +24,7 @@ const Pioneer = () => {
             </div>
             <p className="md:w-[600px] w-[320px] md:text-[16px] text-[14px] text-center ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</p>
             <button className="px-8 py-4 bg-[#2063F2] rounded-[10px]">Join our community</button>
-            <div className="flex justify-end items-end">
-              <img src={pic4} className=''/>
-               <img src={pic1} className=''/>
-               <img src={pic3} className=''/>
-               <img src={pic2} className=''/>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -47,12 +42,12 @@ const Pioneer = () => {
             <p className="w-[600px] text-[24px] text-center ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</p>
             <button className="px-8 py-4 bg-[#2063F2] rounded-full">Join our community</button>
 
-            <div className="static">
+            {/* <div className="static">
               <img src={pic4} className='absolute left-[8rem] top-[228rem]'/>
                <img src={pic1} className='absolute left-[18rem] top-[237rem]'/>
                <img src={pic3} className='absolute right-[8rem] top-[228rem]'/>
                <img src={pic2} className='absolute right-[18rem] top-[237rem]'/>
-            </div>
+            </div> */}
           </div>
        
       )}

@@ -28,12 +28,9 @@ const Footer = () => {
               <div className="flex flex-col gap-4 ">
                 <div className="flex gap-4">
                   <img src={BlueLetter} className='w-15'/>
-                  <text>elisha@memoiafrica.com</text>
+                  <text>info@memoiventure.com</text>
                 </div>
-                <div className="flex gap-4 ">
-                  <img src={Phone} className='w-15'/>
-                  <text>+234 903-263-2415</text>
-                </div>
+                
               </div>
             </div>
             
@@ -71,22 +68,12 @@ const Footer = () => {
               <div className="flex flex-col gap-4 ">
                 <div className="flex gap-4">
                   <img src={BlueLetter} className='w-15'/>
-                  <text>elisha@memoiafrica.com</text>
+                  <text>info@memoiventure.com</text>
                 </div>
-                <div className="flex gap-4 ">
-                  <img src={Phone} className='w-15'/>
-                  <text>+234 903-263-2415</text>
-                </div>
+                
               </div>
             </div>
-            <div>
-              <div className="text-[28px] font-[600] mt-5 pb-4 text-center">Stay in the know</div>
-              <div className="bg-none flex justify-end items-end text-center">
-                <img src={Letter} className='w-15'/>
-                <input type="text" name="" id="" placeholder="Enter your email here" className="p-[8px] bg-transparent border-r-transparent border-l-transparent border-b-2 border-slate-400 outline-none" />
-                <img src={Plain} className='w-15'/>
-              </div>
-            </div>
+            
           </div>
           <hr/>
           <div className="flex justify-around items-center  text-[#838998] ">
