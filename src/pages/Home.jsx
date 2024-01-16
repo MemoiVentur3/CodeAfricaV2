@@ -14,8 +14,8 @@ export default function Home() {
         title: "Developers Conference 2024",
         date: "May 10th - 11th, 2024",
         time: "9:00 AM UTC",
-        venue: "Strathmore University, Kenya",
-        registerLink: "/register"
+        venue: "University of Kenya, Nairobi",
+        registerLink: "https://lu.ma/9k34su4q"
       };
 
     return (

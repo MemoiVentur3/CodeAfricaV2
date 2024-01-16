@@ -54,9 +54,11 @@ const Hero = () => {
               <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
+              <a href="https://linktr.ee/memoiafrica">
               <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
                 Register Now
               </button>
+              </a>
             </div>
             <div className="bg-sky-400 h-11 flex items-center overflow-hidden">
               <p className="animate-marquee whitespace-nowrap">
@@ -110,12 +112,15 @@ const Hero = () => {
               <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
-              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
-                Register Now
-              </button>
+              <a href="https://linktr.ee/memoiafrica">
+                <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
+                  Register Now
+                </button>
+              </a>
+
             </div>
             <ScrollingLogos />
-            
+
           </div>
           {/* <div className="flex justify-center items-end z-[99]">
             <img src={frame2} className="w-[auto] h-[20rem]" />
