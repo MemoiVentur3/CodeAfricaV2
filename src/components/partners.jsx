@@ -1,43 +1,112 @@
-import React from 'react'
-import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
-import profile3 from '../assets/profile3.jpeg'
-import profile4 from '../assets/profile4.jpeg'
-import profile1 from '../assets/profile1.jpeg'
-import profile5 from '../assets/profile5.jpeg'
-import profile2 from '../assets/profile2.jpeg'
-import profile6 from '../assets/profile6.jpeg'
+import logo1 from "../assets/1.svg"
+import logo2 from "../assets/2.svg"
+import logo3 from "../assets/3.svg"
+import logo4 from "../assets/4.svg"
+import logo5 from "../assets/5.svg"
+import logo6 from "../assets/6.svg"
+import logo7 from "../assets/7.svg"
+import logo8 from "../assets/8.svg"
+import logo9 from "../assets/9.svg"
+import logo10 from "../assets/0.svg"
+import logo11 from "../assets/01.svg"
+import logo12 from "../assets/02.svg"
+import logo13 from "../assets/03.svg"
 
-
-const navigation = [
-    { name: 'Pieter Buikema', image: (profile3), role: 'Co-instagator, ETHSafari', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Lin Yang', image: (profile4), role: 'Founding Partner, Aqualabs', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Kate Kallot', image: (profile6), role: 'Founder & CEO Amini', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Eric Anan', image: (profile2), role: 'CEO, AyaHQ', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Johnpaul Nwobodo', image: (profile1), role: 'Investment Analyst, Adaverse', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Israel Ayodeji', image: (profile5), role: 'Founder, Web3Bridge', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-]
-
-function Partners() {
-  return (
-    <div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-            {navigation.map((item) => (
-                <div className='flex flex-col justify-between items-center gap-4 w-[300px] px-4 py-6 relative border rounded-2xl'>
-                    <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' />
-                    <div className='flex flex-col items-center'>
-                        <div className='text-[28px] text-[#04BCD4] font-[700] '>{item.name}</div>
-                        <div className='text-[16px] font-[400] '>{item.role}</div>
-                    </div>
-                    {/* <div className='flex gap-4'>
-                        <a href={item.twitter} target='_blank'><FaTwitter className="p-2 border rounded-full" size={40}/></a>
-                        <a href={item.facebook} target='_blank'><FaFacebook className="p-2 border rounded-full" size={40}/></a>
-                        <a href={item.linkedin} target='_blank'><FaLinkedin className="p-2 border rounded-full" size={40}/></a>
-                    </div> */}
-                </div>
-            ))}
+export default function Partners() {
+    return (
+      <div className="bg-[#020710] py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 className="text-center text-[35px] font-extrabold leading-8 text-[#04BCD4]">
+            Our Amazing Partners
+          </h2>
+          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo6}
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo2}
+              alt="Reform"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo3}
+              alt="Tuple"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo7}
+              alt="Workcation"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+              src={logo5}
+              alt="StaticKit"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo10}
+              alt="Laravel Nova"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo11}
+              alt="Laravel Nova"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo8}
+              alt="Laravel Spark"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+              src={logo12}
+              alt="Laravel Horizon"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+              src={logo4}
+              alt="SavvyCal"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              src={logo9}
+              alt="Statamic"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              src={logo13}
+              alt="Statamic"
+              width={158}
+              height={48}
+            />
+          </div>
         </div>
-    </div>
-  )
-}
-
-export default Partners
+      </div>
+    )
+  }
+  

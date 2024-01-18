@@ -1,13 +1,13 @@
 import React from "react"
 import item2 from '../assets/item2.svg'
 import image from '../assets/Rectangle.png'
-import image2 from '../assets/connect.jpeg'
-import image3 from '../assets/speak.jpeg'
+import image2 from '../assets/conn.jpeg'
+import image3 from '../assets/aud.jpeg'
 import image4 from '../assets/hackathon.jpeg'
 import { FaArrowRight } from 'react-icons/fa'
 
 const navigation = [
-  { title: 'Pre-Hackathon Week', details: 'Engage with our community through pre-events, hackathons, AMAs, games, campaigns, virtual happy hours, and casual meetups.', image: (image4) },
+  { title: 'Pre-Hackathon Week', details: 'Engage with our community through pre-events, hackathons, AMAs, bounties, campaigns, virtual happy hours, and casual meetups.', image: (image4) },
   { title: 'Keynote Speeches', details: ' Attend exciting keynote speeches from industry experts, developers, and founders.', image: (image3) },
   { title: 'Networking', details: 'Connect with industry movers and shakers. Hear from industry experts, developers, founders, and more in engaging deep tech talks.', image: (image2) },
 ]
