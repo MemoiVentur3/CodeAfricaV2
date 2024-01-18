@@ -22,7 +22,7 @@ export default function Partners() {
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src={logo6}
+              src={logo13}
               alt="Transistor"
               width={158}
               height={48}
@@ -43,7 +43,7 @@ export default function Partners() {
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src={logo7}
+              src={logo4}
               alt="Workcation"
               width={158}
               height={48}
@@ -57,7 +57,7 @@ export default function Partners() {
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src={logo10}
+              src={logo6}
               alt="Laravel Nova"
               width={158}
               height={48}
@@ -78,28 +78,35 @@ export default function Partners() {
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src={logo12}
+              src={logo9}
               alt="Laravel Horizon"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src={logo4}
+              src={logo10}
               alt="SavvyCal"
               width={158}
               height={48}
             />
             <img
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src={logo9}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo7}
+              alt="Statamic"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src={logo12}
               alt="Statamic"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src={logo13}
+              src={logo1}
               alt="Statamic"
               width={158}
               height={48}
