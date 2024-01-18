@@ -51,16 +51,16 @@ const Hero = () => {
               Join us for an immersive experience as we bring together a diverse community of developers, founders, product designers, VCs, KoLs and industry players in blockchain, AI and beyond.
             </p>
             <div className="flex justify-center gap-5 z-[99]">
-              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
+              <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
-              <a href="https://linktr.ee/memoiafrica">
-              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
+              <a href="https://lu.ma/9k34su4q">
+              <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] text-[#fff] rounded-3xl">
                 Register Now
               </button>
               </a>
             </div>
-            <div className="bg-sky-400 h-11 flex items-center overflow-hidden">
+            <div className="bg-[#04BCD4] h-11 flex items-center overflow-hidden">
               <p className="animate-marquee whitespace-nowrap">
                 {textArray.map((text, index) => (
                   <span key={index}>{text}</span>
@@ -109,11 +109,11 @@ const Hero = () => {
               Join us for an immersive experience as we bring together a diverse community of developers, founders, product designers, VCs, KoLs and industry players in blockchain, AI and beyond.
             </p>
             <div className="flex justify-center gap-5 z-[99]">
-              <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
+              <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
               <a href="https://linktr.ee/memoiafrica">
-                <button className="px-8 py-4 bg-sky-400 hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
+                <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                   Register Now
                 </button>
               </a>
@@ -130,7 +130,7 @@ const Hero = () => {
             <img src={frame6} className="w-[auto] h-[16rem]" />
             <img src={frame7} className="w-[auto] h-[20rem]" />
           </div>
-          <div className="flex gap-[20px] text-[#000] z-[99] text-[24px] font-[700] bg-sky-400 w-full align-center justify-around relative bottom-[5rem] p-[1rem]">
+          <div className="flex gap-[20px] text-[#000] z-[99] text-[24px] font-[700] bg-[#04BCD4] w-full align-center justify-around relative bottom-[5rem] p-[1rem]">
             <div>Mintyplex</div>
             <div>Mintyplex</div>
             <div>Mintyplex</div>

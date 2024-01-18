@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { BsX } from 'react-icons/bs'
-import MintyplexLogo from '../assets/Memoi.png'
+import MintyplexLogo from '../assets/codeafrica.png'
 // import Web3modal from './web3modal'
 import UAuth from "@uauth/js"
 
@@ -78,7 +78,7 @@ export default function Navbar() {
     <div>
       <div className='container mx-auto text-white px-[20px]'>
         <div className='py-4 justify-between items-center hidden md:flex'>
-          <div className='w-[60px] md:w-[100px]'><img src={MintyplexLogo} alt="MintyplexLogo" /></div>
+          <div className='w-[30px] md:w-[100px]'><img src={MintyplexLogo} alt="MintyplexLogo" /></div>
           <div className='flex gap-8'>
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="font-semibold hover:text-[#2063F2]">
@@ -99,9 +99,11 @@ export default function Navbar() {
               </div>
             </div> ) :
             <div >
-              <button className="px-6 py-2 bg-sky-400 hover:bg-[#fff] hover:text-sky-500 text-[14px] w-fit text-[#fff] rounded-3xl">
+              <a href="https://forms.gle/ifQdT72BhGNARUoe8">
+              <button className="px-6 py-2 bg-[#04BCD4] hover:bg-[#fff] hover:text-sky-500 text-[14px] w-fit text-[#fff] rounded-3xl">
               Become a Sponsor
             </button>
+            </a>
             </div>
           }
 
@@ -110,7 +112,7 @@ export default function Navbar() {
         {/* Mobile Nav */}
         
         <div className='md:hidden py-4 justify-between flex items-center'>
-          <div className='w-[80px]'><img src={MintyplexLogo} alt="MintyplexLogo" /></div>
+          <div className='w-[30px]'><img src={MintyplexLogo} alt="MintyplexLogo" /></div>
         
             { mobileMenuOpen === (true) ? (
               <button onClick={() => setMobileMenuOpen(false)}><BsX size={25}/></button>
@@ -139,9 +141,11 @@ export default function Navbar() {
                 </div>
               </div> ) :
               <div  >
-                <button className="px-6 py-2 bg-sky-400 hover:bg-[#fff] hover:text-sky-400 text-[14px] w-fit text-[#fff] rounded-3xl">
+                <a href="https://forms.gle/ifQdT72BhGNARUoe8">
+                <button className="px-6 py-2 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#04BCD4] text-[14px] w-fit text-[#fff] rounded-3xl">
                 Become a Sponsor
               </button>
+              </a>
               </div>
             }
           </div>

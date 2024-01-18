@@ -12,7 +12,7 @@ const navigation = [
     { name: 'Pieter Buikema', image: (profile3), role: 'Co-instagator, ETHSafari', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Lin Yang', image: (profile4), role: 'Founding Partner, Aqualabs', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Kate Kallot', image: (profile6), role: 'Founder & CEO Amini', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Eric Anan', image: (profile2), role: 'CEO, Mintyplex', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Eric Anan', image: (profile2), role: 'CEO, AyaHQ', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Johnpaul Nwobodo', image: (profile1), role: 'Investment Analyst, Adaverse', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Israel Ayodeji', image: (profile5), role: 'Founder, Web3Bridge', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
 ]
@@ -25,7 +25,7 @@ function Card() {
                 <div className='flex flex-col justify-between items-center gap-4 w-[300px] px-4 py-6 relative border rounded-2xl'>
                     <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' />
                     <div className='flex flex-col items-center'>
-                        <div className='text-[28px] text-sky-400 font-[700] '>{item.name}</div>
+                        <div className='text-[28px] text-[#04BCD4] font-[700] '>{item.name}</div>
                         <div className='text-[16px] font-[400] '>{item.role}</div>
                     </div>
                     {/* <div className='flex gap-4'>

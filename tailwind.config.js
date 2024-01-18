@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily:{
-      'grotesk': ['Space Grotesk', 'sans-serif'],
+      'grotesk': ['Free Sans', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
