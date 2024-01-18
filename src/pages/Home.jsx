@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react'
 import Team from "../components/Team"
 import Footer from "../components/Footer";
 import Building from "../components/building";
@@ -21,6 +22,7 @@ export default function Home() {
 
     return (
         <div className="bg-[#020710]">
+        <Analytics />
          <Navbar />
          <Hero/>
          <Building/>
