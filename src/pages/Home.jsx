@@ -17,7 +17,7 @@ export default function Home() {
         time: "9:00 AM UTC",
         venue: "University of Kenya, Nairobi",
         registerLink: "https://lu.ma/9k34su4q",
-        partnershipLink:"https://forms.gle/ifQdT72BhGNARUoe8"
+        partnershipLink:"https://forms.gle/YCEMCfiY4NEtDXxW9"
       };
 
     return (

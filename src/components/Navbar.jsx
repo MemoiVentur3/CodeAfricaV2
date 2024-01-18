@@ -20,9 +20,12 @@ import UAuth from "@uauth/js"
 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Who we Are', href: '#' },
-  { name: 'What to expect', href: '#' },
-  { name: 'Become a sponsor', href: '#' },
+  { name: 'Who we Are', href: '#About' },
+  { name: 'What to expect', href: '#Expect' },
+  { name: 'Our Speakers', href: '#Speakers' },
+  { name: 'Partners', href: '#Sponsors' },
+  // { name: 'FAQs', href: '#' },
+  // { name: 'Contact Us', href: '#' },
 ]
 
 export default function Navbar() {
@@ -99,7 +102,7 @@ export default function Navbar() {
               </div>
             </div> ) :
             <div >
-              <a href="https://forms.gle/ifQdT72BhGNARUoe8">
+              <a href="https://forms.gle/YCEMCfiY4NEtDXxW9">
               <button className="px-6 py-2 bg-[#04BCD4] hover:bg-[#fff] hover:text-sky-500 text-[14px] w-fit text-[#fff] rounded-3xl">
               Become a Sponsor
             </button>
@@ -141,7 +144,7 @@ export default function Navbar() {
                 </div>
               </div> ) :
               <div  >
-                <a href="https://forms.gle/ifQdT72BhGNARUoe8">
+                <a href="https://forms.gle/YCEMCfiY4NEtDXxW9">
                 <button className="px-6 py-2 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#04BCD4] text-[14px] w-fit text-[#fff] rounded-3xl">
                 Become a Sponsor
               </button>
