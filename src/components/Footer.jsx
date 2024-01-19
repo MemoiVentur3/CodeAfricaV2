@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-1 md:gap-10 lg:grid-cols-3 items-top lg:justify-items-center ">
                   <div className="flex flex-col gap-4">
                     <div className="w-[90px]"><img src={MintyplexLogo} alt="MintyplexLogo" /></div>
-                    <h5 className="w-[350px] ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</h5>
+                    <h5 className="w-[320px] text-center ">Code Africa is created by Developers, for Developers. We aim to expand the developer ecosystem in Africa, driving conversations about skills enhancement, inclusiveness, opportunities, and innovation.</h5>
                   </div>
                   <div>
 

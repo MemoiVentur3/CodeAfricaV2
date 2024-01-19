@@ -109,10 +109,12 @@ const Hero = () => {
               Join us for an immersive experience as we bring together a diverse community of developers, founders, product designers, VCs, KoLs and industry players in blockchain, AI and beyond.
             </p>
             <div className="flex justify-center gap-5 z-[99]">
+            <a href="#About">
               <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                 Learn More
               </button>
-              <a href="https://linktr.ee/memoiafrica">
+            </a> 
+              <a href="https://lu.ma/9k34su4q">
                 <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#2063F2] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
                   Register Now
                 </button>
