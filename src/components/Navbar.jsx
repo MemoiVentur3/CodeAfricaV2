@@ -19,11 +19,11 @@ import UAuth from "@uauth/js"
   };
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Who we Are', href: '#About' },
-  { name: 'What to expect', href: '#Expect' },
-  { name: 'Our Speakers', href: '#Speakers' },
-  { name: 'Partners', href: '#Sponsors' },
+  { name: 'Home', href: '/' },
+  { name: 'Who we Are', href: '/#About' },
+  { name: 'What to expect', href: '/#Expect' },
+  { name: 'Our Speakers', href: '/#Speakers' },
+  { name: 'Partners', href: '/#Sponsors' },
   // { name: 'FAQs', href: '#' },
   // { name: 'Contact Us', href: '#' },
 ]

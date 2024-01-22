@@ -21,6 +21,13 @@ export default function Team() {
           <div>
             <Card />
           </div>
+          <div className="flex justify-center gap-5 z-[99]">
+            <a href="/speaker">
+              <button className="px-8 py-4 bg-[#04BCD4] hover:bg-[#fff] hover:text-[#04BCD4] text-[14px] md:text-[22px] text-[#fff] rounded-3xl">
+                See More Speakers
+              </button>
+            </a> 
+            </div>
         </div>
       </div>
       <div id="Sponsors" className='mx-auto text-white'>

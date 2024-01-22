@@ -14,7 +14,7 @@ import logo12 from "../assets/02.svg"
 import logo13 from "../assets/03.svg"
 
 // Mockup logos (replace these with actual image paths)
-const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo1, logo2, logo3, logo4, logo5, logo6];
+const logos = [logo2, logo3, logo4, logo5, logo6, logo2, logo3, logo4, logo5, logo6];
 
 const ScrollingLogos = () => {
   return (
