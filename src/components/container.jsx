@@ -5,7 +5,7 @@ const ContainLayout = ({ children, ...props }) => {
     return (
         <div
             mx="auto"
-            maxW="8xl"
+            maxW="10xl"
             px={{ base: '4', md: '8', lg: '12' }}
             {...props}
           >
