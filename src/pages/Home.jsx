@@ -13,9 +13,10 @@ import '../App.css'
 export default function Home() {
     const eventDetails = {
         title: "Developers Conference 2024",
+        hackathon: "May 6th - 9th, 2024",
         date: "May 10th - 11th, 2024",
         time: "8:00 AM EAT",
-        venue: "University of Kenya, Nairobi",
+        venue: "University of Nairobi, Kenya",
         registerLink: "https://lu.ma/9k34su4q",
         partnershipLink:"https://forms.gle/YCEMCfiY4NEtDXxW9"
       };
