@@ -3,8 +3,8 @@ import React from "react";
 const EventInfo = ({ event }) => {
   return (
     
-    <div className="container  py-4 flex flex-col justify-center items-center gap-2 rounded-lg shadow-md">
-      <h2 className="conatiner text-[25px] md:text-[45px] justify-center text-center text-[#04BCD4] font-[700]">{event.title}</h2>
+    <div className="items-center justify-center flex flex-col gap-5 bg-Pioneer px-10 py-10 bg-no-repeat text-[#fff]">
+      <h2 className="text-[25px] md:text-[45px] justify-center text-center text-[#04BCD4] font-[700]">{event.title}</h2>
       <p className="text-white text-[18px] md:text-[24px]"><strong>Date:</strong> {event.date}</p>
       <p className="text-white text-[18px] md:text-[24px]"><strong>Hackathon:</strong> {event.hackathon}</p>
       <p className="text-white text-[18px] md:text-[24px]"><strong>Time:</strong> {event.time}</p>
