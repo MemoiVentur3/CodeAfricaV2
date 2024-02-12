@@ -22,7 +22,7 @@ const navigation = [
     { name: 'Dr. Bright Mawudor', image: (profile7), role: 'Founder, AfricaHackOn', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Johnpaul Nwobodo', image: (profile1), role: 'Investment Analyst, Adaverse', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Yoseph Ayele', image: (profile10), role: 'Founder, Magma', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'YvonneKagondu', image: (profile9), role: 'Co-founder Kushite ICP East Africa Hub, LBS', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Yvonne Kagondu', image: (profile9), role: 'Co-founder, Kushite ICP East Africa Hub, LBS', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
 ]       
 
 function SpeakersExtended() {
