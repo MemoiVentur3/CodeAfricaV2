@@ -8,6 +8,8 @@ import profile2 from '../assets/profile2.jpeg'
 import profile6 from '../assets/profile6.jpeg'
 import profile7 from '../assets/profile7.jpeg'
 import profile8 from '../assets/profile8.jpeg'
+import profile9 from '../assets/profile9.jpeg'
+import profile10 from '../assets/profile10.jpeg'    
 
 
 const navigation = [
@@ -19,7 +21,9 @@ const navigation = [
     { name: 'Israel Ayodeji', image: (profile5), role: 'Founder, Web3Bridge', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Dr. Bright Mawudor', image: (profile7), role: 'Founder, AfricaHackOn', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Johnpaul Nwobodo', image: (profile1), role: 'Investment Analyst, Adaverse', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-]
+    { name: 'Yoseph Ayele', image: (profile10), role: 'Founder, Magma', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'YvonneKagondu', image: (profile9), role: 'Co-founder Kushite ICP East Africa Hub, LBS', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+]       
 
 function SpeakersExtended() {
     return (

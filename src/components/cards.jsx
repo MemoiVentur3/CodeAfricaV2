@@ -7,6 +7,7 @@ import profile5 from '../assets/profile5.jpeg'
 import profile2 from '../assets/profile2.jpeg'
 import profile6 from '../assets/profile6.jpeg'
 import profile7 from '../assets/profile7.jpeg'
+import profile10 from '../assets/profile10.jpeg'
 
 
 const navigation = [
@@ -14,7 +15,7 @@ const navigation = [
     { name: 'Lin Yang', image: (profile4), role: 'Founding Partner, Aqua Labs', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Kate Kallot', image: (profile6), role: 'Founder & CEO, Amini', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Eric Anan', image: (profile2), role: 'CEO, AyaHQ', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Dr. Bright Mawudor', image: (profile7), role: 'Founder, AfricaHackOn', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Yoseph Ayele', image: (profile10), role: 'Founder, Magma', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Israel Ayodeji', image: (profile5), role: 'Founder, Web3Bridge', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     
 ]
