@@ -4,12 +4,12 @@ import image from '../assets/Rectangle.png'
 import image2 from '../assets/conn.jpeg'
 import image3 from '../assets/aud.jpeg'
 import image4 from '../assets/hackathon.jpeg'
-import { FaArrowRight } from 'react-icons/fa'
 
 const navigation = [
   { title: 'Pre-Hackathon Week', details: 'Engage with our community through pre-events, hackathons, AMAs, bounties, campaigns, virtual happy hours, and casual meetups.', image: (image4) },
   { title: 'Keynote Speeches', details: ' Attend exciting keynote speeches from industry experts, developers, and founders.', image: (image3) },
   { title: 'Networking', details: 'Connect with industry movers and shakers. Hear from industry experts, developers, founders, and more in engaging deep tech talks.', image: (image2) },
+  { title: 'Awards & After Party', details: 'Get ready to strut your stuff and pop the champagne as we honor the brightest stars in our community. Moments  of glitz, glam, and unforgettable experiences.', image: (image) },
 ]
 
 export default function Building() {
@@ -30,13 +30,13 @@ export default function Building() {
               <h1 className="text-[28px] md:text-[55px] font-[700] text-[#04BCD4] text-center ">What to Expect</h1>
               <img src={item2} alt='' className="w-[2rem] lg:w-[6rem]" />
             </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-10">
             {navigation.map((item) => (
-                    <div className='flex flex-col justify-between items-center w-[300px] px-4 py-6 relative border rounded-2xl'>
+                    <div className='flex flex-col justify-center items-center w-[300px] px-4 py-6 relative border rounded-2xl'>
                         <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' />
                         <div className='text-[20px] text-center text-[#04BCD4] font-[700] '>{item.title}</div>
                         <div className='text-[16px] font-[400] text-center'>{item.details}</div>
-                        {/* <a href='' target='_blank'><FaArrowRight/></a> */}
+                        
                     </div>
                 ))}
           </div>

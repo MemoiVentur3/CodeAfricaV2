@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
 import profile3 from '../assets/profile3.jpeg'
 import profile4 from '../assets/profile4.jpeg'
 import profile1 from '../assets/profile1.jpeg'
@@ -37,7 +36,7 @@ function SpeakersExtended() {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                         {navigation.map((item) => (
                             <div className='flex flex-col justify-between items-center gap-4 w-[300px] px-4 py-6 relative border rounded-2xl'>
-                                <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' />
+                                <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' alt=''/>
                                 <div className='flex flex-col items-center'>
                                     <div className='text-[28px] text-[#04BCD4] font-[700] '>{item.name}</div>
                                     <div className='text-[16px] font-[400] '>{item.role}</div>

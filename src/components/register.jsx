@@ -10,12 +10,12 @@ const EventInfo = ({ event }) => {
       <p className="text-white text-[18px] md:text-[24px]"><strong>Time:</strong> {event.time}</p>
       <p className="text-white text-[18px] md:text-[24px]"><strong>Venue:</strong> {event.venue}</p>
       <div className="flex justify-center gap-5 z-[99]">
-        <a href={event.registerLink}
-        className="w-[150px] rounded-2xl  text-center md:w-[200px] bg-[#04BCD4] text-white p-3 rounded hover:bg-sky-600 transition-colors">
+        <a href={event.registerLink} target="_blank" rel="noreferrer noopener"
+        className="w-[150px] rounded-2xl  text-center md:w-[200px] bg-[#04BCD4] text-white p-3 hover:bg-sky-600 transition-colors">
         Register Now
         </a>
         <a href={event.partnershipLink}
-        className="w-[150px] rounded-2xl text-center md:w-[200px] bg-[#04BCD4] text-white p-3 rounded hover:bg-sky-600 transition-colors">
+        className="w-[150px] rounded-2xl text-center md:w-[200px] bg-[#04BCD4] text-white p-3 hover:bg-sky-600 transition-colors">
         Partner With Us
         </a>
       </div>
