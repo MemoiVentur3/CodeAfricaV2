@@ -30,7 +30,7 @@ export default function Building() {
               <h1 className="text-[28px] md:text-[55px] font-[700] text-[#04BCD4] text-center ">What to Expect</h1>
               <img src={item2} alt='' className="w-[2rem] lg:w-[6rem]" />
             </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-2">
             {navigation.map((item) => (
                     <div className='flex flex-col justify-center items-center w-[300px] px-4 py-6 relative border rounded-2xl'>
                         <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' />
