@@ -23,7 +23,7 @@ const navigation = [
 function Card() {
   return (
     <div>
-        <div className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+        <div className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             {navigation.map((item) => (
                 <div className='flex flex-col justify-between items-center gap-4 w-[300px] px-4 py-6 relative border rounded-2xl'>
                     <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' />
