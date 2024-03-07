@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d8fb183.css",
-    "main.js": "/static/js/main.2ac9454d.js",
+    "main.css": "/static/css/main.78e34813.css",
+    "main.js": "/static/js/main.c9a8855b.js",
     "static/js/787.991afcff.chunk.js": "/static/js/787.991afcff.chunk.js",
     "static/media/Ellipse 1.png": "/static/media/Ellipse 1.854fe3eb2dd7fc82ad30.png",
     "static/media/Ellipse.png": "/static/media/Ellipse.37eebb7728ac7ada4f3c.png",
     "static/media/Group 30.svg": "/static/media/Group 30.ef8de87a3b87a23e92b5bd611ab8327a.svg",
     "static/media/Ellipse 4.png": "/static/media/Ellipse 4.31bc36220b2737574cb9.png",
+    "static/media/profile9.jpeg": "/static/media/profile9.8464ebad3a2afcf38d9f.jpeg",
     "static/media/codeafrica.png": "/static/media/codeafrica.259545999b774901540b.png",
     "static/media/hackathon.jpeg": "/static/media/hackathon.1a6304cfa1e9c3c5eafc.jpeg",
     "static/media/aud.jpeg": "/static/media/aud.545abec5112dec423ffd.jpeg",
-    "static/media/conn.jpeg": "/static/media/conn.fe19184f90f6337c49f8.jpeg",
+    "static/media/profile10.jpeg": "/static/media/profile10.04b40ede662c071a0521.jpeg",
     "static/media/3.svg": "/static/media/3.9853f00e4417d9e8bb3f16af561a9326.svg",
     "static/media/13 28.svg": "/static/media/13 28.d80ee1183b2c6d2c2e94c4b9f39ce542.svg",
     "static/media/profile4.jpeg": "/static/media/profile4.3d8b8bbc5a8ad55e75c3.jpeg",
@@ -23,13 +24,16 @@
     "static/media/profile3.jpeg": "/static/media/profile3.666264bde9f9043292aa.jpeg",
     "static/media/45 11.svg": "/static/media/45 11.a95543c7297c76ea7ef9b81634f764bd.svg",
     "static/media/profile5.jpeg": "/static/media/profile5.37e809b5ccc5c33007df.jpeg",
+    "static/media/profile8.jpeg": "/static/media/profile8.28e07f2895b177217423.jpeg",
     "static/media/item.svg": "/static/media/item.795624c7bc68d638a68ce55b6c3b79e3.svg",
     "static/media/rocket1.svg": "/static/media/rocket1.de588b552cef7feb64024428da5e7bd1.svg",
     "static/media/profile6.jpeg": "/static/media/profile6.d9544041cbca2fdcf61d.jpeg",
     "static/media/item1.svg": "/static/media/item1.8163e773b4c43b80667b017a977c489c.svg",
     "static/media/profile1.jpeg": "/static/media/profile1.f8c51ddfe00549d89683.jpeg",
     "static/media/profile2.jpeg": "/static/media/profile2.c24626c8aeefa61a3ae1.jpeg",
+    "static/media/profile7.jpeg": "/static/media/profile7.42b32c98c38a55ee285e.jpeg",
     "static/media/Rectangle.png": "/static/media/Rectangle.117874abc4072dd04476.png",
+    "static/media/conn.jpeg": "/static/media/conn.0bcdc6b59e17534dd66b.jpeg",
     "static/media/6.svg": "/static/media/6.2aa4c5a7ab81c38516b64c395cb5ea77.svg",
     "static/media/01.svg": "/static/media/01.99cb76395969eb46558d9358b6f1eff2.svg",
     "static/media/02.svg": "/static/media/02.63eb4d8145a22a5e899b5b7f7b3e72ba.svg",
@@ -48,12 +52,12 @@
     "static/media/Phone Rounded.svg": "/static/media/Phone Rounded.e90f4064a0a6b8726e0065629f957b23.svg",
     "static/media/BlueLetter.svg": "/static/media/BlueLetter.415c3c5c259cb69f5f95b483673baea7.svg",
     "static/media/Letter.svg": "/static/media/Letter.ded8b3fdefd9b5582bb312ba65a7d7a0.svg",
-    "main.1d8fb183.css.map": "/static/css/main.1d8fb183.css.map",
-    "main.2ac9454d.js.map": "/static/js/main.2ac9454d.js.map",
+    "main.78e34813.css.map": "/static/css/main.78e34813.css.map",
+    "main.c9a8855b.js.map": "/static/js/main.c9a8855b.js.map",
     "787.991afcff.chunk.js.map": "/static/js/787.991afcff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d8fb183.css",
-    "static/js/main.2ac9454d.js"
+    "static/css/main.78e34813.css",
+    "static/js/main.c9a8855b.js"
   ]
 }

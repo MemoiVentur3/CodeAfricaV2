@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="flex flex-col mt-5 gap-4 ">
                       <div className="flex mt-5 gap-4">
                         <img src={BlueLetter} className='w-15' />
-                        <text>info@memoiventure.com</text>
+                        <text>info@memoiafrica.tech</text>
                       </div>
 
                     </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-4 ">
                       <div className="flex gap-4">
                         <img src={BlueLetter} className='w-15' />
-                        <text>info@memoiventure.com</text>
+                        <text>info@memoiafrica.tech</text>
                       </div>
 
                     </div>
