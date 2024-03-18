@@ -6,7 +6,7 @@ import image3 from '../assets/aud.jpeg'
 import image4 from '../assets/hackathon.jpeg'
 
 const navigation = [
-  { title: 'Pre-Hackathon Week', details: 'Engage with our community through pre-events, hackathons, AMAs, bounties, campaigns, virtual happy hours, and casual meetups.', image: (image4) },
+  { title: 'HackHorizon Hackathon Week', details: 'Engage with our community through pre-events, hackathons, AMAs, bounties, campaigns, virtual happy hours, and casual meetups.', image: (image4) },
   { title: 'Keynote Speeches', details: ' Attend exciting keynote speeches from industry experts, developers, and founders.', image: (image3) },
   { title: 'Networking', details: 'Connect with industry movers and shakers. Hear from industry experts, developers, founders, and more in engaging deep tech talks.', image: (image2) },
   { title: 'Awards & After Party', details: 'Get ready to strut your stuff and pop the champagne as we honor the brightest stars in our community. Moments  of glitz, glam, and unforgettable experiences.', image: (image) },
