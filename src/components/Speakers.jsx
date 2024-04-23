@@ -22,7 +22,6 @@ import profile18 from '../assets/profile18.jpg'
 const navigation = [
     { name: 'Pieter Buikema', image: (profile3), role: 'Co-instagator, ETHSafari', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Lin Yang', image: (profile4), role: 'Founding Partner, Aqua Labs', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Kate Kallot', image: (profile6), role: 'Founder & CEO, Amini', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Eric Anan', image: (profile2), role: 'CEO, AyaHQ', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Jason Eisen', image: (profile8), role: 'Founder & CEO, Utu Technologies, Co-instigator ETHSafari', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Israel Ayodeji', image: (profile5), role: 'Founder, Web3Bridge', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
@@ -34,10 +33,10 @@ const navigation = [
     { name: 'Moataz Helmy', image: (profile12), role: 'Chairperson, Afrilabs', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Jason Owili', image: (profile13), role: 'CEO, Afribot Robotics', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Idris Olubisi', image: (profile14), role: 'Developer Advocate at Axelar', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Harison Obiefule', image: (profile15), role: 'ICP Kushite(Sponsor)', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Harrison Obiefule', image: (profile15), role: 'Co-lead, Superteam Nigeria', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Gideon Greaves', image: (profile16), role: 'Managing Director, CV VC', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Chepkemoi Magdalene', image: (profile17), role: 'CEO, Eldo Hub', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Yacob Berhane', image: (profile18), role: 'Co-Founder & CEO, Pariti', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    
 ]       
 
 function SpeakersExtended() {
