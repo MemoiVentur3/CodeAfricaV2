@@ -8,7 +8,15 @@ import profile6 from '../assets/profile6.jpeg'
 import profile7 from '../assets/profile7.jpeg'
 import profile8 from '../assets/profile8.jpeg'
 import profile9 from '../assets/profile9.jpeg'
-import profile10 from '../assets/profile10.jpeg'    
+import profile10 from '../assets/profile10.jpeg'
+import profile11 from '../assets/profile11.jpg'
+import profile12 from '../assets/profile12.jpg'
+import profile13 from '../assets/profile13.jpg'
+import profile14 from '../assets/profile14.jpg'
+import profile15 from '../assets/profile15.jpg'
+import profile16 from '../assets/profile16.jpg'
+import profile17 from '../assets/profile17.jpg'
+import profile18 from '../assets/profile18.jpg'
 
 
 const navigation = [
@@ -22,6 +30,14 @@ const navigation = [
     { name: 'Johnpaul Nwobodo', image: (profile1), role: 'Investment Analyst, Adaverse', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Yoseph Ayele', image: (profile10), role: 'Founder, Magma', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Yvonne Kagondu', image: (profile9), role: 'Co-founder, Kushite ICP East Africa Hub, LBS', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Moses Kemibaro', image: (profile11), role: 'Founder & CEO, Dotsavy', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Moataz Helmy', image: (profile12), role: 'Chairperson, Afrilabs', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Jason Owili', image: (profile13), role: 'CEO, Afribot Robotics', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Idris Olubisi', image: (profile14), role: 'Developer Advocate at Axelar', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Harison Obiefule', image: (profile15), role: 'ICP Kushite(Sponsor)', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Gideon Greaves', image: (profile16), role: 'Managing Director, CV VC', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Chepkemoi Magdalene', image: (profile17), role: 'CEO, Eldo Hub', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Yacob Berhane', image: (profile18), role: 'Co-Founder & CEO, Pariti', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
 ]       
 
 function SpeakersExtended() {
@@ -38,7 +54,7 @@ function SpeakersExtended() {
                             <div className='flex flex-col justify-between items-center gap-4 w-[300px] px-4 py-6 relative border rounded-2xl'>
                                 <img src={item.image} className='rounded-[10px] w-[250px] h-[250px] object-cover' alt=''/>
                                 <div className='flex flex-col items-center'>
-                                    <div className='text-[28px] text-[#04BCD4] font-[700] '>{item.name}</div>
+                                    <div className='text-[24px] text-[#04BCD4] font-[700] '>{item.name}</div>
                                     <div className='text-[16px] font-[400] '>{item.role}</div>
                                 </div>
                                 {/* <div className='flex gap-4'>
