@@ -35,7 +35,7 @@ const navigation = [
     { name: 'Idris Olubisi', image: (profile14), role: 'Developer Advocate at Axelar', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Harrison Obiefule', image: (profile15), role: 'Co-lead, Superteam Nigeria', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Gideon Greaves', image: (profile16), role: 'Managing Director, CV VC', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Chepkemoi Magdalene', image: (profile17), role: 'CEO, Eldo Hub', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
+    { name: 'Chepkemoi Magdalene', image: (profile17), role: 'CEO, Eldo Huz', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     
 ]       
 
