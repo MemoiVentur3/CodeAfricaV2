@@ -3,6 +3,8 @@ import item from '../assets/item.svg'
 import Card from "./cards"
 import ScrollingLogos from "./slider";
 import Partners from "./partners";
+import Sponsors from "./Sponsors";
+import HackathonPartners from "./HackathonPartners";
 
 export default function Team() {
 
@@ -34,6 +36,8 @@ export default function Team() {
         <div className='py-4 flex flex-col justify-center items-center gap-12'>
           <div className="flex flex-col justify-center items-center">
             <div className="">
+              <Sponsors />
+              <HackathonPartners />
               <Partners />
             </div>
             {/* <div>
