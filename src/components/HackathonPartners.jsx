@@ -11,7 +11,6 @@ import logo10 from "../assets/0.svg"
 import logo11 from "../assets/01.svg"
 import logo12 from "../assets/02.svg"
 import logo13 from "../assets/03.svg"
-import ethereumFoundation from "../assets/ethereum foundation.svg"
 import ICPkushite from "../assets/kushite_icp.svg"
 import afribot from "../assets/afribot.png"
 import africahackon from "../assets/africahackon.png"
@@ -48,6 +47,7 @@ export default function HackathonPartners() {
               width={158}
               height={48}
             />
+            
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               src={aya}
