@@ -1,7 +1,7 @@
 import React from "react"
-import item from '../assets/item.svg'
+// import item from '../assets/item.svg'
 import Card from "./cards"
-import ScrollingLogos from "./slider";
+// import ScrollingLogos from "./slider";
 import Partners from "./partners";
 import Sponsors from "./Sponsors";
 import HackathonPartners from "./HackathonPartners";

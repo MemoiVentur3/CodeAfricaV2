@@ -4,7 +4,7 @@ import profile4 from '../assets/profile4.jpeg'
 import profile1 from '../assets/profile1.jpeg'
 import profile5 from '../assets/profile5.jpeg'
 import profile2 from '../assets/profile2.jpeg'
-import profile6 from '../assets/profile6.jpeg'
+
 import profile7 from '../assets/profile7.jpeg'
 import profile8 from '../assets/profile8.jpeg'
 import profile9 from '../assets/profile9.jpeg'
@@ -16,7 +16,7 @@ import profile14 from '../assets/profile14.jpg'
 import profile15 from '../assets/profile15.jpg'
 import profile16 from '../assets/profile16.jpg'
 import profile17 from '../assets/profile17.jpg'
-import profile18 from '../assets/profile18.jpg'
+
 import beniah from "../assets/beniah.jpg"
 import blackian from "../assets/blackian.jpg"
 import eugene from "../assets/eugene.jpg"
@@ -24,7 +24,7 @@ import gideon from "../assets/gideon.jpg"
 import michael from "../assets/michael.jpg"
 import nicabed from "../assets/nicabed.jpg"
 import victoria from "../assets/victoria.jpg"
-import tim from "../assets/tim.jpg"
+
 import sandra from "../assets/sandra.jpg"
 
 
