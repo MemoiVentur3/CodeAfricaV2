@@ -17,7 +17,6 @@ import profile15 from '../assets/profile15.jpg'
 import profile16 from '../assets/profile16.jpg'
 import profile17 from '../assets/profile17.jpg'
 
-import beniah from "../assets/beniah.jpg"
 import blackian from "../assets/blackian.jpg"
 import eugene from "../assets/eugene.jpg"
 import gideon from "../assets/gideon.jpg"
@@ -45,7 +44,6 @@ const navigation = [
     { name: 'Harrison Obiefule', image: (profile15), role: 'Co-lead, Superteam Nigeria', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Gideon Greaves', image: (profile16), role: 'Managing Director, CV VC', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Chepkemoi Magdalene', image: (profile17), role: 'CEO, Eldo Hub', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
-    { name: 'Beniah Wepundi', image: (beniah), role: 'Chief Maverick , myPayd', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Bastian Blackenburg', image: (blackian), role: 'CTO, UTU Technologies', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'eugene Mutai', image: (eugene), role: 'Google Developer Expert', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
     { name: 'Gideon Grieves', image: (gideon), role: 'Managing Director ,CV VC', twitter: 'https://twitter.com/', facebook: 'https://facebook.com/', linkedin: 'https://linkedin.com/' },
